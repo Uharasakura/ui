@@ -3,5 +3,10 @@
   "loading_order": 10,
   "requires": [],
   "optional": [],
-  "js": "index.js"
+  "js": "index.js",
+  "css": "",
+  "author": "you",
+  "version": "1.0.0",
+  "homePage": "https://github.com/Uharasakura/ui",
+  "auto_update": true
 }
