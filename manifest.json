@@ -1,0 +1,7 @@
+{
+  "display_name": "Random Theme",
+  "loading_order": 10,
+  "requires": [],
+  "optional": [],
+  "js": "index.js"
+}
