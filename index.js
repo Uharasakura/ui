@@ -10,10 +10,10 @@
     return true;
   }
 
-  function waitAndSwitch(retries = 20) {
+  function waitAndSwitch(retries = 40) {
     if (trySwitch()) return;
     if (retries <= 0) return console.warn('随机主题：找不到 #themes，放弃');
-    setTimeout(() => waitAndSwitch(retries - 1), 500);
+    setTimeout(() => waitAndSwitch(retries - 1), 100);
   }
 
   waitAndSwitch();
